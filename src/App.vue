@@ -1,9 +1,9 @@
-<template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+<template> <!-- template DOM -->
+  <img alt="Vue logo" src="./assets/logo.png"> <!-- img classique -->
+  <HelloWorld msg="Welcome to Your Vue.js App"/> <!-- composant car la balise possède une majuscule -->
 </template>
 
-<script>
+<script> // Javascript
 import HelloWorld from './components/HelloWorld.vue'
 
 export default {
@@ -14,7 +14,7 @@ export default {
 }
 </script>
 
-<style>
+<style> /* CSS */
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
